@@ -185,12 +185,14 @@ header {
     margin: 0;
     height: 80px;
 }
-#masthead .site-logo .custom-logo{
-max-width: 300px;
-max-height: 300px;
-  padding: 0;
-    height: 80px;
+
+#masthead .site-logo .custom-logo {
+    max-width: 300px;
+    max-height: 300px;
+    width: 300px;
+    padding: 0;
 }
+
 /* main */
 
 
@@ -470,15 +472,18 @@ max-height: 300px;
     justify-content: center;
 }
 
-.nf-form-content{
+.nf-form-content {
     width: 90%;
 }
-.wp-block-column{
+
+.wp-block-column {
     display: block;
 }
-.wp-element-button{
-    height:auto;
+
+.wp-element-button {
+    height: auto;
 }
+
 /* footer */
 .site-info {
     text-align: center;
