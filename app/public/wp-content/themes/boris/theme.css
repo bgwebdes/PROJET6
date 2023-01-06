@@ -193,9 +193,8 @@ header {
     padding: 0;
 }
 
-/* main */
 
-
+/* nav */
 
 .primary-menu-container {
     width: auto;
@@ -319,10 +318,10 @@ header {
     padding: 100px 0 100px 0;
 }
 
-.galerie {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.galerie{
+   
+    max-width: none !important;
+    width: 900px;
 }
 
 .galerie img {
@@ -462,10 +461,29 @@ header {
 
 }
 
-.is-style-fill {
-    display: flex;
-    align-items: center;
+.is-layout-flow.wp-block-column.bloc_ajout_panier{
+border-radius: 30px;
+outline: 1px solid red;
+
 }
+
+.total{
+ width: 82px;
+ height: 145px;
+}
+.plus {
+  
+    width: 82px;
+    height: 106px;
+
+}
+
+.btn_commander a{
+    height: 106px;
+    padding-top: 50px;
+}
+
+
 
 .formulaire_commande {
     display: flex;
