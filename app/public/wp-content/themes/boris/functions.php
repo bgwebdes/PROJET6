@@ -8,11 +8,11 @@ function theme_enqueue_styles()
 }
 function logged_wp_nav_menu_args( $args = '' ) {
     if( is_user_logged_in() ) {
-    // Logged in menu to display
+    // Utilisateur connecté : affiche le menu Admin
     $args['menu'] = 3;
      
     } else {
-    // Non-logged-in menu to display
+    // Utilisateur non connecté : pas d'affichage du menu Admin
     $args['menu'] = 2;
     }
     return $args;

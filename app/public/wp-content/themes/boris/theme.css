@@ -149,17 +149,14 @@ a:hover {
 
 /* ------------------------------------------  header --------------------------------------- */
 
-header {
 
-    display: flex;
-    justify-content: space-evenly;
-}
+
 
 #site-navigation {
     max-width: 1440px;
     height: 80px;
     margin-top: 0;
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
 }
@@ -171,19 +168,9 @@ header {
     height: 80px;
 }
 
-.site-logo {
-    display: flex;
-    justify-content: space-around;
-    height: 80px;
-    align-items: center;
-    margin: 0 !important;
-    padding-left: 3%;
-}
 
-.site-branding {
-    margin: 0;
-    height: 80px;
-}
+
+
 
 #masthead .site-logo .custom-logo {
     max-width: 300px;
@@ -312,9 +299,9 @@ header {
     padding: 100px 0 100px 0;
 }
 
-.galerie {
+#main .lesgouts .galerie {
 
-    max-width: none !important;
+    max-width: none;
     width: 900px;
 }
 
@@ -337,13 +324,17 @@ header {
 
 /* -------------------------------------  page "nous rencontrer" ----------------------------------------------*/
 
-.bloc1-1 {
+
+.bloc1-1 .wp-block-group__inner-container {
     background-color: #ECE2DA;
     padding: 2% 0 5% 0;
-    border-bottom: 30px solid #e3d9d0;
+    border-bottom: 20px solid #e3d9d0;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
+}
 
+.nous-rencontrer {
+    padding-top: 3%;
 }
 
 .equipe h2 {
@@ -368,7 +359,7 @@ header {
 }
 
 .fleur1 {
-    margin-right: 15%;
+    margin-right: 28%;
 
 }
 
@@ -378,10 +369,10 @@ header {
 
 }
 
-.fleur-16 .wp-image-373{
+.fleur-16 .wp-image-373 {
     margin-top: 310px;
     margin-left: 110px;
-  }
+}
 
 
 /* --------------------------------------------------------   formulaire -----------------------------------------------*/
@@ -395,9 +386,7 @@ header {
 
 .formulaire-contact {
     display: flex;
-    padding-left: 10%;
     z-index: 100;
-    outline: 1px solid red;
 }
 
 
@@ -418,10 +407,8 @@ header {
     width: 400px;
 
 }
-.code-court{
-    outline: 1px solid red;
 
-}
+
 
 #nf-form-1-cont {
     width: 100%;
@@ -617,8 +604,8 @@ header {
 
 }
 
-.form-commande {
-    max-width: 860px !important;
+#main .formulaire_commande .form-commande {
+    max-width: 860px;
 }
 
 .btn-commander {
@@ -661,19 +648,51 @@ header {
 @media only screen and (min-width: 320px) and (max-width: 481px) {
 
 
-    .site-branding {
-        width: 100%;
-        height: 80px;
+    #masthead .menu-button-container {
+        margin-left: 65%;
     }
 
     #masthead .site-logo .custom-logo {
-        width: 120px;
+        max-width: 300px;
+        max-height: 300px;
+        width: 135px;
+        height: 50%;
+        padding: 0;
+    }
+
+    #masthead {
+
+        width: 100%;
+    }
+
+    #masthead .menu-button-container {
+        width: 30%;
+    }
+
+    #primary-open-menu {
+        background-color: #c02e44;
+    }
+
+    #primary-close-menu {
+        background-color: #c02e44;
+
+    }
+
+    #site-navigation {
+        width: 20%;
+    }
+
+    .site-branding {
+        width: 30%;
+    }
+
+    .site-logo {
+        height: 80px;
     }
 
     #menu-primary-2 a {
         font-size: 16px;
     }
-
 
     #primary-open-menu:hover {
         background-color: #c02e44;
@@ -716,6 +735,15 @@ header {
 
     }
 
+    .bloc2 {
+        padding-top: 5%;
+    }
+    #main #post-7 .bloc2 p{
+        line-height: 10px;
+
+    }
+   
+
     .bloc3 {
         display: block !important;
         height: auto;
@@ -757,23 +785,29 @@ header {
         font-size: 18px;
     }
 
-    .bloc1-1 {
+
+    .bloc1-1 .wp-block-group__inner-container {
         display: block;
-        height: 300px;
+        height: auto;
+        background-color: #ECE2DA;
+        padding: 2% 0 5% 0;
+        border-bottom: 10px solid #e3d9d0;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
     }
 
-    .fleur1 img {
-        margin-top: -5px;
-        margin-right: 25px !important;
-
+    .fleur1 {
+        margin-right: 20%;
+        padding-top: 15%;
     }
+
 
     .bloc1-1 h2 {
         font-size: 18px;
+        padding-bottom: 3;
     }
 
     .bloc1-1 p {
-        margin-top: 0 !important;
         margin-left: 5% !important;
         margin-bottom: 5%;
     }
@@ -795,10 +829,7 @@ header {
         min-width: 300px;
     }
 
-    .wp-block-image .fleur1 img {
-        background-color: #c02e44;
-        margin-right: 10%;
-    }
+
 
     .chezplanty {
         margin-top: 200px !important;
@@ -810,24 +841,30 @@ header {
     }
 
 
-    .nous-rencontrer {
-        height: 30px;
+    .nous-rencontrer .fleur1 {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin: 0;
     }
+
     .nous-rencontrer h2 {
         text-align: center;
     }
+
     .chezplanty {
-       padding-top: 50px;
-       padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 30px;
     }
 
     .equipe {
         width: 95% !important;
 
     }
-.equipe h2{
-    padding-top: 20%;
-}
+
+    .equipe h2 {
+        padding-top: 20%;
+    }
 
     .personne {
         width: 50% !important;
@@ -840,6 +877,7 @@ header {
 
 
     .nous-contacter {
+        display: block;
         padding: 30px 0 0 0 !important;
     }
 
@@ -872,6 +910,7 @@ header {
         font-weight: 700;
         font-size: 15px;
         line-height: 46px;
+        text-align: center;
     }
 
     .header-commander {
@@ -899,7 +938,7 @@ header {
 
     .set-commande {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
         max-width: none !important;
 
@@ -946,6 +985,8 @@ header {
     }
 
     .formulaire-contact {
+        margin: 0;
+        padding: 0;
         min-width: 320px;
     }
 
@@ -955,12 +996,26 @@ header {
 
     }
 
+    #nf-form-title-2 h3 {
+        text-align: center;
+    }
+
     #nf-form-title-3 h3 {
-        font-size: 20px;
+        font-family: 'Syne';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 482px) and (max-width: 768px) {
+
+    .menu-button-container {
+        width: 30%;
+    }
+
     #masthead .site-logo .custom-logo {
         max-width: 300px;
         max-height: 300px;
@@ -971,9 +1026,13 @@ header {
     #site-navigation {
         height: 80px;
         margin-top: 0;
-        width: 75%;
+        width: 72%;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .site-branding {
+        width: 28%;
     }
 
     .titreh2vert {
@@ -1000,8 +1059,8 @@ header {
         color: #000000;
         font-size: 13px;
         text-align: center;
-        line-height: 0 !important;
-        margin-bottom: 0 !important;
+        line-height: 0 
+        margin-bottom: 0 ;
 
     }
 
@@ -1027,6 +1086,31 @@ header {
 
     }
 
+    .bloc1-1 .wp-block-group__inner-container {
+        display: block;
+        height: auto;
+        background-color: #ECE2DA;
+        padding: 2% 0 5% 0;
+        border-bottom: 10px solid #e3d9d0;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+    }
+
+
+    #post-7.bloc2 {
+        width: 80%;
+
+    }
+
+    #post-7.bloc2 p{
+line-height: 21px;
+    }
+
+    .lesgouts {
+        width: 80% !important;
+
+    }
+
     .bloc3 {
         display: block !important;
         height: auto;
@@ -1046,13 +1130,15 @@ header {
     }
 
     .bloc1-1 {
-        display: block !important;
-
+        height: auto;
     }
 
-    .fleur1 .alignright {
+    .nous-rencontrer .fleur1 {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        margin: 0;
         padding-top: 5%;
-        margin-right: 25%;
     }
 
     .nous-rencontrer h2 {
@@ -1094,6 +1180,11 @@ header {
         padding-bottom: 50px;
         width: 100% !important;
         border-bottom: 1px solid #ffffff;
+
+    }
+
+    .top-commander h3 {
+        text-align: center;
 
     }
 
