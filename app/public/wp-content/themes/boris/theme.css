@@ -258,11 +258,9 @@ body * {
     color: #d2776a;
 }
 
-/* ----------------------------------------  page d'accueil ---------------------------------------------*/
 /* blocs de contenu */
-
-
 /* sections */
+/* ----------------------------------------  page d'accueil ---------------------------------------------*/
 
 
 #post-7 .bloc1 {
@@ -324,6 +322,7 @@ body * {
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
+
 #post-9 .bloc1-1 .nous-rencontrer {
     padding-top: 3%;
 }
@@ -347,6 +346,7 @@ body * {
     font-size: 30px;
     line-height: 36px;
 }
+
 #post-9 .equipe .membres .personne h3 {
     font-family: 'Syne';
     font-style: normal;
@@ -358,6 +358,7 @@ body * {
 #post-9 .equipe .membres {
     width: 80%;
 }
+
 #post-9 .bloc1-1 .fleur1 {
     margin-right: 28%;
 
@@ -369,10 +370,11 @@ body * {
 
 }
 
-#post-9 .nous-contacter .formulaire-contact .fleur-16 img{
+#post-9 .nous-contacter .formulaire-contact .fleur-16 img {
     margin-top: 205%;
     margin-left: 85%;
 }
+
 #post-9 .nous-contacter .formulaire-contact {
     margin-right: 35%;
 
@@ -387,6 +389,7 @@ body * {
     font-size: 30px;
     line-height: 36px;
 }
+
 #post-9 .nous-contacter.formulaire-contact {
     display: flex;
     z-index: 100;
@@ -487,7 +490,7 @@ body * {
 
 /* -----------  fin header ------*/
 
-/* ----------------section commande------------------------------------------------------------------ */
+/* -----------------------------------------------   section commande   --------------------------------- */
 
 #post-11 .commande .wp-block-group__inner-container {
     display: flex;
@@ -555,7 +558,7 @@ body * {
     height: 56px;
 }
 
-/* --------------------------------------------- formulaire ---------------------------------------------------*/
+/* --------------------------------------------- formulaire >>> page commande   -------------------------------------*/
 #post-11 .form-commande {
     max-width: 860px;
     margin-left: auto;
@@ -578,8 +581,6 @@ body * {
 #nf-field-9-container .nf-field {
     margin-top: 50px;
 }
-
-
 
 #nf-field-5,
 #nf-field-6,
@@ -614,18 +615,15 @@ body * {
     margin-left: -20px;
 }
 
-
-
-
 #nf-form-2-cont {
     border-right: 1px solid #ffffff;
     padding-right: 5%;
 }
 
-
 /* photo cannettes bas de page */
 
-#post-7 .bloc4 .can , #post-9 .can {
+#post-7 .bloc4 .can,
+#post-9 .can {
     padding-top: 15%;
 }
 
@@ -739,20 +737,60 @@ body * {
     }
 
     /* sections */
-    /* page d'accueil */
-    #post-7 .bloc3 .galerie .image img {
-        width: 96% !important;
+    /* --------------------------------------    page d'accueil  ----------------------------------------------*/
+
+    #post-7 .bloc2 {
+        display: block;
     }
 
-    #post-7 .lesgouts .galerie {
+    #post-7 .bloc2 p {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #main #post-7 .lesgouts .galerie {
+        display: block;
         width: 100%;
     }
 
-    /* page "nous rencontrer" */
-    #post-9 .bloc1-1 .nous-rencontrer .fleur1 img {
-        margin-top: 0;
-
+    #main #post-7 .lesgouts .galerie .image {
+        width: 95%;
     }
+
+    #main #post-7 .lesgouts .galerie .image img {
+        object-fit: fill;
+    }
+    #post-7 .bloc3{
+        padding-bottom: 0;
+    }
+    #post-7 .lesgouts .wp-block-buttons .wp-block-button {
+        padding-top: 10%;
+    }
+    
+    
+    
+    /* ------------------------------------------ page "nous rencontrer" --------------------------------*/
+
+    #post-9 .bloc1-1 .nous-rencontrer {
+        display: block;
+        margin: 0 auto;
+    }
+    #post-9 .bloc1-1 .nous-rencontrer .fleur1 {
+        margin: 0 auto;        
+    }
+
+    #post-9 .bloc1-1 .nous-rencontrer .fleur1 img {
+        margin: 0 auto;
+    }
+    #post-9 .bloc1-1 h2 {
+        margin: 0;
+        text-align: center;
+    }
+    #post-9 .bloc1-1 .chezplanty-p{
+        width: 80%;
+        padding: 5% 0 0 5%;
+    }
+
 
     #post-9 .equipe .membres {
         width: 100%;
@@ -763,15 +801,28 @@ body * {
         margin-left: 70%;
 
     }
+/* ---------------------------- formulaire >>> page "nous rencontrer" ----------------------------------*/
+#post-9 .nous-contacter .formulaire-contact {
+    margin-right: 0;
+}
 
-    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
-        display: flex;
-        justify-content: center;
-        margin: 0;
+   
+    #post-9 .nous-contacter .formulaire-contact .fleur-16 img{
+        margin:auto;
+        display: block;
+        width: 50%;
     }
-
-
-    /* ------------------------------------     page commande -------------------------------------------------------*/
+    
+    #nf-form-1-cont .nf-form-layout form .nf-form-content{
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+    }
+    #nf-field-4{
+        width: 50%;
+    margin: 5% 0 0 23%;
+    }
+    /* -------------------------------------- page commande -------------------------------------------------------*/
     #post-11 .header-commander h2 {
         font-size: 30px;
         font-weight: 700;
@@ -781,6 +832,10 @@ body * {
         font-size: 25px;
         font-weight: 700;
     }
+    #post-11 .commande .wp-block-group__inner-container{
+        display: block;
+        margin: auto;
+    }
 
     #post-11 .commande .produit img {
         max-width: 90%;
@@ -789,7 +844,7 @@ body * {
     #post-11 .commande .produit {
         min-width: 300px;
         max-width: none;
-        padding: 0;
+        padding: 5% 0 5% 0;
     }
 
     #post-11 .commande .produit .set-commande {
