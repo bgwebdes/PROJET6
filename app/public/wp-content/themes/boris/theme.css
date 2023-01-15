@@ -80,8 +80,7 @@ section,
 summary,
 time,
 mark,
-audio,
-video {
+audio {
     margin: 0;
     padding: 0;
     border: 0;
@@ -147,9 +146,9 @@ body * {
     margin-top: -30px;
 }
 
-a:hover {
-    border: none;
-    color: #ffffff !important;
+#menu-primary_logged_in-2 a {
+    border-bottom: none;
+    text-decoration: none;
 }
 
 /* ------------------------------------------  header --------------------------------------- */
@@ -182,12 +181,15 @@ a:hover {
 
 
 /* ------------------------------------------------  nav --------------------------------------------*/
-
-.primary-menu-container {
+#primary-close-menu .primary-menu-container {
     width: auto;
 }
 
-.entry-header {
+#post-7 .entry-header {
+    display: none;
+}
+
+#post-11 .entry-header {
     display: none;
 }
 
@@ -208,15 +210,7 @@ a:hover {
     color: #ffffff;
 }
 
-.menu-item-32 {
-    background-color: #DC9F96;
-    color: #ffffff;
-}
 
-.menu-item-32:hover {
-    background-color: #DC9F96;
-    color: #ffffff;
-}
 
 /* -------------------------------------  menu utilisateur connecté --------------------------------------*/
 #menu-primary_logged_in-2 {
@@ -229,9 +223,39 @@ a:hover {
     text-decoration: none;
 }
 
-.menu-item-370 {
+#menu-primary_logged_in-2 .menu-item-370 {
     background-color: #DC9F96;
     color: #ffffff;
+}
+
+#menu-primary_logged_in-2 .menu-item-370:hover {
+    background-color: #c02e44;
+    color: #ffffff;
+}
+
+#menu-primary_logged_in-2 .menu-item-370 a:hover {
+    background-color: #c02e44;
+    color: #ffffff;
+}
+
+/* polices */
+
+.titreh2vert {
+    font-size: 38px;
+    font-weight: 800;
+    color: #3B8E46;
+}
+
+.titreh3vert {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3B8E46;
+}
+
+.titreh2rose {
+    font-size: 38px;
+    font-weight: 800;
+    color: #d2776a;
 }
 
 /* ----------------------------------------  page d'accueil ---------------------------------------------*/
@@ -269,14 +293,15 @@ a:hover {
     width: 900px;
 }
 
-#main .lesgouts .galerie img {
+#main #post-7 .lesgouts .galerie .image {
     width: 393px;
     height: 262px;
     margin: 3%;
+    width: 40%;
 
 }
 
-#post-7 .bloc4 #post-7 .temoignages {
+#post-7 .bloc4 .temoignages {
     padding: 5% 0 0 0;
 }
 
@@ -288,6 +313,9 @@ a:hover {
 
 /* -------------------------------------  page "nous rencontrer" ----------------------------------------------*/
 
+#post-9 .entry-title {
+    display: none;
+}
 
 .bloc1-1 .wp-block-group__inner-container {
     background-color: #ECE2DA;
@@ -296,12 +324,22 @@ a:hover {
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
-
-.nous-rencontrer {
+#post-9 .bloc1-1 .nous-rencontrer {
     padding-top: 3%;
 }
 
-.equipe h2 {
+#post-9 .bloc1-1 h2 {
+    margin-left: -10%;
+    margin-top: 5%;
+}
+
+#post-9 .bloc1-1 .chezplanty-p {
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#post-9 .equipe h2 {
     margin-top: 50px !important;
     font-family: 'Syne';
     font-style: normal;
@@ -309,8 +347,7 @@ a:hover {
     font-size: 30px;
     line-height: 36px;
 }
-
-.personne h3 {
+#post-9 .equipe .membres .personne h3 {
     font-family: 'Syne';
     font-style: normal;
     font-weight: 700;
@@ -318,61 +355,57 @@ a:hover {
     line-height: 24px;
 }
 
-.membres {
-    width: 80% !important;
+#post-9 .equipe .membres {
+    width: 80%;
 }
-
-.fleur1 {
+#post-9 .bloc1-1 .fleur1 {
     margin-right: 28%;
 
 }
 
-.fleur1 img {
+#post-9 .bloc1-1.fleur1 img {
     margin-right: 50%;
     margin-top: -50px;
 
 }
 
-.fleur-16 .wp-image-373 {
-    margin-top: 310px;
-    margin-left: 110px;
+#post-9 .nous-contacter .formulaire-contact .fleur-16 img{
+    margin-top: 205%;
+    margin-left: 85%;
+}
+#post-9 .nous-contacter .formulaire-contact {
+    margin-right: 35%;
+
 }
 
+/* -------------------------------   page "nous rencontrer" >>> formulaire -----------------------------------------------*/
 
-/* --------------------------------------------------------   formulaire -----------------------------------------------*/
-.nous-contacter h2 {
+#post-9 .nous-contacter h2 {
     font-family: 'Syne';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
 }
-
-.formulaire-contact {
+#post-9 .nous-contacter.formulaire-contact {
     display: flex;
     z-index: 100;
 }
 
 
-
-.branche img {
-    margin-bottom: 5%;
+#post-9 .equipe .branche img {
+    margin-bottom: -5%;
     margin-top: -100%;
     z-index: 100;
 }
 
-.nf-field-element {
-    z-index: 1;
-}
 
-.nf-form-content {
+#nf-form-1-cont .nf-form-layout form .nf-form-content {
     max-width: 1000px;
     margin: 0 auto;
     width: 400px;
 
 }
-
-
 
 #nf-form-1-cont {
     width: 100%;
@@ -396,13 +429,9 @@ a:hover {
     width: 50%;
 }
 
-/* photo cannettes bas de page */
-#post-9 .can {
-    background-color: #ECE2DA;
-
-}
 
 
+/* -------------------------------------- page commande --------------------------------------------------*/
 
 
 /* header */
@@ -460,9 +489,11 @@ a:hover {
 
 /* ----------------section commande------------------------------------------------------------------ */
 
-
 #post-11 .commande .wp-block-group__inner-container {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
     background-color: #3B8E46;
     max-width: 860px;
     padding-bottom: 50px;
@@ -472,7 +503,9 @@ a:hover {
 
 #post-11 .commande .produit {
     max-width: 193px;
-    padding: 1%;
+    margin-top: 0;
+    margin-bottom: 1%;
+
 }
 
 #post-11 .commande .produit .set-commande {
@@ -530,6 +563,10 @@ a:hover {
     color: #ffffff;
 }
 
+#post-11 .formulaire_commande .form-commande .vos-informations {
+    width: 100%;
+}
+
 #nf-form-title-2,
 #nf-form-title-3 {
     font-family: 'syne';
@@ -552,23 +589,25 @@ a:hover {
 #nf-field-10,
 #nf-field-11 {
     border-radius: 10px;
-
 }
 
+#nf-form-2-cont .nf-form-layout .nf-form-content {
+    display: block;
+    width: 100%;
+}
+
+#nf-form-3-cont .nf-form-layout .nf-form-content {
+    display: block;
+    width: 100%;
+}
 
 #post-11 .formulaire_commande .btn-commander {
     border-radius: 5px;
     padding: 0 35px 50px 0;
 }
 
-#post-11 .formulaire_commande .form_commande {
-    outline: 1px red;
-
-}
-
 #nf-form-title-3 {
     margin-left: -10px;
-
 }
 
 #nf-form-3-cont .nf-form-layout .nf-form-content {
@@ -580,12 +619,15 @@ a:hover {
 
 #nf-form-2-cont {
     border-right: 1px solid #ffffff;
-    padding-right: 60px;
-
+    padding-right: 5%;
 }
 
 
+/* photo cannettes bas de page */
 
+#post-7 .bloc4 .can , #post-9 .can {
+    padding-top: 15%;
+}
 
 
 /* ----------------------------------------------  footer ------------------------------------------------*/
@@ -593,9 +635,6 @@ a:hover {
 
 #colophon .site-info {
     text-align: center;
-
-
-
 }
 
 #colophon .site-info a {
@@ -612,7 +651,29 @@ a:hover {
 -------------------------------------------------------------------------------------------------------------------------*/
 
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    /* polices */
+
+    .titreh2vert {
+        font-size: 22px;
+        font-weight: 800;
+        color: #3B8E46;
+    }
+
+    .titreh3vert {
+        font-size: 20px;
+        font-weight: 700;
+        color: #3B8E46;
+    }
+
+    .titreh2rose {
+        font-size: 22px;
+        font-weight: 800;
+        color: #d2776a;
+    }
+
+    /* navigation */
 
     #masthead .menu-button-container {
         margin-left: 65%;
@@ -677,6 +738,40 @@ a:hover {
         background-color: #c02e44;
     }
 
+    /* sections */
+    /* page d'accueil */
+    #post-7 .bloc3 .galerie .image img {
+        width: 96% !important;
+    }
+
+    #post-7 .lesgouts .galerie {
+        width: 100%;
+    }
+
+    /* page "nous rencontrer" */
+    #post-9 .bloc1-1 .nous-rencontrer .fleur1 img {
+        margin-top: 0;
+
+    }
+
+    #post-9 .equipe .membres {
+        width: 100%;
+    }
+
+    #post-9 .equipe .branche img {
+        width: 30%;
+        margin-left: 70%;
+
+    }
+
+    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+
+    /* ------------------------------------     page commande -------------------------------------------------------*/
     #post-11 .header-commander h2 {
         font-size: 30px;
         font-weight: 700;
@@ -714,11 +809,11 @@ a:hover {
     }
 
     #nf-form-2-cont .nf-form-layout .nf-form-content {
-        max-width: 300px;
+        max-width: 290px;
     }
 
     #nf-form-3-cont .nf-form-layout .nf-form-content {
-        max-width: 300px;
+        max-width: 290px;
     }
 
     #post-11 .formulaire_commande .form-commande .vos-informations {
@@ -731,7 +826,8 @@ a:hover {
     }
 
     #nf-form-3-cont .nf-form-layout .nf-form-content {
-        margin: 0;
+        display: block;
+        margin: 0 auto;
     }
 
     #post-11 .formulaire_commande .btn-commander {
