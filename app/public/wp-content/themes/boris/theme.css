@@ -298,11 +298,11 @@ body * {
 }
 
 #post-7 .bloc4 .temoignages {
-    padding: 5% 0 0 0;
+    padding: 10% 0 5% 0;
 }
 
 #post-7 .lesgouts {
-    border-bottom: 30px solid #ECE2DA;
+    border-bottom: 3px solid #ECE2DA;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -315,10 +315,10 @@ body * {
 
 .bloc1-1 .wp-block-group__inner-container {
     background-color: #ECE2DA;
-    padding: 2% 0 5% 0;
+    padding: 2% 5% 5% 0;
     border-bottom: 3px solid #e3d9d0;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
 }
 
 #post-9 .bloc1-1 .nous-rencontrer {
@@ -326,13 +326,13 @@ body * {
 }
 
 #post-9 .bloc1-1 h2 {
-    margin-left: -10%;
-    margin-top: 5%;
+    margin-left: -20%;
+    margin-top: 10%;
 }
 
 #post-9 .bloc1-1 .chezplanty-p {
     width: 43%;
-    margin-left: auto;
+    margin-left: 32%;
     margin-right: auto;
 }
 
@@ -359,7 +359,6 @@ body * {
 
 #post-9 .bloc1-1 .fleur1 {
     margin-right: 28%;
-
 }
 
 #post-9 .bloc1-1.fleur1 img {
@@ -437,8 +436,7 @@ body * {
 
 /* header */
 
-
-.header-commander {
+#post-11 .header-commander {
     display: flex;
 }
 
@@ -511,9 +509,8 @@ body * {
 
 #post-11 .commande .produit .set-commande {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 56px;
-    max-width: 193px;
 
 }
 
@@ -549,6 +546,7 @@ body * {
 
 #post-11 .commande .produit .bt-commande a {
     height: 56px;
+    width: 85px;
 }
 
 #post-11 .commande .produit .btn-ok {
@@ -558,7 +556,7 @@ body * {
 
 /* --------------------------------------------- formulaire >>> page commande   -------------------------------------*/
 #post-11 .form-commande {
-    max-width: 860px;
+    min-width: 860px;
     margin-left: auto;
     margin-right: auto;
     color: #ffffff;
@@ -568,11 +566,18 @@ body * {
     width: 100%;
 }
 
-#nf-form-title-2,
+#nf-form-title-2 {
+    font-family: 'syne';
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 20%;
+}
+
 #nf-form-title-3 {
     font-family: 'syne';
     font-size: 30px;
     font-weight: 700;
+    padding-right: 60%;
 }
 
 #nf-field-5-container .nf-field,
@@ -610,17 +615,13 @@ body * {
     padding: 0 35px 50px 0;
 }
 
-#nf-form-title-3 {
-    margin-left: -10px;
-}
-
 #nf-form-3-cont .nf-form-layout .nf-form-content {
     margin-left: -20px;
 }
 
 #nf-form-2-cont {
     border-right: 1px solid #ffffff;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 /* photo cannettes bas de page */
@@ -653,6 +654,7 @@ body * {
 
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
 
     /* polices */
 
@@ -700,12 +702,10 @@ body * {
 
     #primary-open-menu {
         background-color: #c02e44;
-        height: 50px;
     }
 
     #primary-close-menu {
         background-color: #c02e44;
-        height: 50px;
 
     }
 
@@ -716,6 +716,14 @@ body * {
     #primary-close-menu {
         color: #ffffff;
 
+    }
+
+    #menu-primary_logged_in-2 {
+        padding: 5%;
+    }
+
+    .primary-menu-container ul li {
+        text-align: center;
     }
 
     #site-navigation {
@@ -758,6 +766,7 @@ body * {
 
     #main #post-7 .lesgouts .galerie .image {
         width: 95%;
+        height: auto;
     }
 
     #main #post-7 .lesgouts .galerie .image img {
@@ -773,32 +782,31 @@ body * {
     }
 
 
-
     /* ------------------------------------------ page "nous rencontrer" --------------------------------*/
+
+    #post-9 .bloc1-1 .fleur1 {
+        display: block;
+        margin: 0 !important;
+    }
 
     #post-9 .bloc1-1 .nous-rencontrer {
         display: block;
         margin: 0 auto;
     }
 
-    #post-9 .bloc1-1 .nous-rencontrer .fleur1 {
-        margin: 0 auto;
-    }
 
-    #post-9 .bloc1-1 .nous-rencontrer .fleur1 img {
-        margin: 0 auto;
-    }
 
     #post-9 .bloc1-1 h2 {
         margin: 0;
         text-align: center;
+        font-size: 15px;
     }
 
     #post-9 .bloc1-1 .chezplanty-p {
-        width: 80%;
+        width: 100%;
         padding: 5% 0 0 5%;
+        margin: 0;
     }
-
 
     #post-9 .equipe .membres {
         width: 100%;
@@ -811,15 +819,19 @@ body * {
     }
 
     /* ---------------------------- formulaire >>> page "nous rencontrer" ----------------------------------*/
+
+
     #post-9 .nous-contacter .formulaire-contact {
         margin-right: 0;
+        width: 100% !important;
     }
 
 
     #post-9 .nous-contacter .formulaire-contact .fleur-16 img {
         margin: auto;
+        margin-top: -97%;
         display: block;
-        width: 50%;
+        width: 30%;
     }
 
     #nf-form-1-cont .nf-form-layout form .nf-form-content {
@@ -868,14 +880,28 @@ body * {
         height: 9px;
     }
 
+
     #post-11 .commande .produit .set-commande {
-        min-width: 285px;
-        max-width: none;
+        display: flex;
+        justify-content: space-around;
+        min-width: 250px;
+
     }
 
 
-
     /* formulaire de commande */
+
+    #post-11 .form-commande {
+        min-width: 250px;
+    }
+
+    #nf-form-title-2 {
+        padding: 0;
+    }
+
+    #nf-form-title-3 {
+        padding: 0;
+    }
 
     #nf-form-2-cont {
         border: none;
@@ -1083,172 +1109,92 @@ body * {
     padding-top: 10%;
 }
 
-
-
-/* ------------------------------------------ page "nous rencontrer" --------------------------------*/
-
-#post-9 .bloc1-1 .nous-rencontrer {
-    display: block;
-    margin: 0 auto;
-}
-
-#post-9 .bloc1-1 .nous-rencontrer .fleur1 {
-    margin: 0 auto;
-}
-
-#post-9 .bloc1-1 .nous-rencontrer .fleur1 img {
-    margin: 0 auto;
+#post-9 .bloc1-1 .fleur1 {
+    margin: 0;
 }
 
 #post-9 .bloc1-1 h2 {
-    margin: 0;
+    margin-top: 10%;
+    margin-left: 0;
     text-align: center;
 }
 
 #post-9 .bloc1-1 .chezplanty-p {
-    width: 80%;
-    padding: 5% 0 0 5%;
-}
-
-
-#post-9 .equipe .membres {
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 #post-9 .equipe .branche img {
+    margin-bottom: -3%;
+    margin-top: -25%;
+    z-index: 100;
     width: 30%;
-    margin-left: 80%;
-
+    margin-left: 49%;
 }
-
-/* ---------------------------- formulaire >>> page "nous rencontrer" ----------------------------------*/
-
 
 #post-9 .nous-contacter .formulaire-contact {
-    margin: auto;
-    display: block;
+    margin: 0;
 }
 
-#post-9 .nous-contacter .formulaire-contact .fleur-16 figure {
-    margin: auto;
+#post-9 .nous-contacter .formulaire-contact .fleur-16 {
     display: block;
-    width: 100%;
-}
-
-#post-9 .nous-contacter .formulaire-contact .fleur-16 img {
-    margin: auto;
-    display: block;
-    width: 30%;
-}
-
-#nf-form-1-cont .nf-form-layout form .nf-form-content {
-    margin: 0 auto;
-    width: 100%;
-    display: block;
+    margin-top: -171%;
+    margin-right: 60%;
 }
 
 #nf-field-4 {
+    background-color: #E0B9B4;
+    margin-left: 23%;
     width: 50%;
-    margin: 5% 0 0 23%;
+    margin-top: 10%;
 }
 
-/* -------------------------------------- page commande -------------------------------------------------------*/
-
-#post-11 .header-commander h2 {
-    font-size: 30px;
-    font-weight: 700;
-}
-
-#post-11 .header-commander h3 {
-    font-size: 25px;
-    font-weight: 700;
+#post-9 .nous-contacter .wp-block-spacer {
+    display: none;
 }
 
 #post-11 .commande .wp-block-group__inner-container {
-    display: block;
-    margin: auto;
-}
-
-#post-11 .commande .produit img {
-    max-width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: #3B8E46;
+    max-width: 860px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ffffff;
+    flex-direction: column;
 }
 
 #post-11 .commande .produit {
-    min-width: 300px;
-    max-width: none;
-    padding: 5% 0 5% 0;
-}
-
-#post-11 .commande .produit .set-commande {
-    min-width: 320px;
+    margin-top: 0;
+    margin-bottom: 10%;
     max-width: none;
 }
 
-#post-11 .commande .quantite {
-    flex-basis: 70%;
+#post-11 .form-commande {
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
 }
-
-
-/* formulaire de commande */
-
-#nf-form-2-cont {
-    border: none;
-    padding: 0;
-}
-
-#nf-field-9-wrap .nf-field-label label {
-    padding: 3%;
-}
-
-#post-11 .commande .produit .quantite {
-    display: block;
-    width: 56px;
-    margin-right: -11px;
-}
-
-#post-11 .commande .produit .plus-moins {
-    display: block;
-    height: 56px;
-    width: 31px;
-    margin-left: -11px;
-    background-color: #DC9F96;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-#post-11 .commande .produit .quantite h5 {
-    height: 56px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    display: flex;
-}
-
 #post-11 .formulaire_commande .form-commande .vos-informations {
     text-align: center;
 }
 
-#post-11 .formulaire_commande .form-commande .livraison {
-    text-align: center;
-
+#nf-form-2-content {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    padding: 0;
 }
-
+#nf-form-title-2 {
+    padding: 0;
+}
 #nf-form-3-cont .nf-form-layout .nf-form-content {
     display: block;
     margin: 0 auto;
 }
 
-#post-11 .formulaire_commande .btn-commander {
-    padding: 0;
 
-
-}
-
-#post-9 .can {
-    padding-top: 0;
-}
 
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
@@ -1260,6 +1206,7 @@ body * {
     #post-7 .bloc4 .temoignages {
         padding: 0 !important;
     }
+
     #main .lesgouts .galerie {
 
         max-width: none;
@@ -1270,9 +1217,10 @@ body * {
         object-fit: fill;
         height: auto;
     }
+
     #post-9 .bloc1-1 .chezplanty-p {
         width: 50%;
-        margin-left: auto;
+        margin-left: 32%;
         margin-right: auto;
     }
 
