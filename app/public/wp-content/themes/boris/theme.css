@@ -568,14 +568,14 @@ body * {
 
 #nf-form-title-2 {
     font-family: 'syne';
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     padding-right: 20%;
 }
 
 #nf-form-title-3 {
     font-family: 'syne';
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 700;
     padding-right: 60%;
 }
@@ -621,7 +621,7 @@ body * {
 
 #nf-form-2-cont {
     border-right: 1px solid #ffffff;
-    padding-right: 10%;
+    padding-right: 5%;
 }
 
 /* photo cannettes bas de page */
@@ -830,12 +830,12 @@ body * {
     }
 
     #post-9 .nous-contacter .formulaire-contact .fleur-16 {
-        margin-top: -48%;
+        margin-top: -12%;
+        margin-left: 0;
     }
 
     #post-9 .nous-contacter .formulaire-contact .fleur-16 img {
-        margin-top: -20%;
-        display: block;
+
         width: 30%;
     }
 
@@ -897,7 +897,9 @@ body * {
     /* formulaire de commande */
 
     #post-11 .form-commande {
-        min-width: 250px;
+        color: #ffffff;
+        min-width: 320px;
+
     }
 
     #nf-form-title-2 {
@@ -1128,11 +1130,13 @@ body * {
     }
 
     #post-9 .nous-contacter .formulaire-contact .fleur-16 {
-        margin-top: -66%;
-        margin-left: -5%;
+        margin: 0;
     }
 }
 
+#post-11 .form-commande {
+    min-width: 480px;
+}
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
 
@@ -1155,39 +1159,32 @@ body * {
         height: auto;
     }
 
+    #post-9 .bloc1-1 {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
     #post-9 .bloc1-1 h2 {
-        margin-left: -13%;
+        margin-left: -6%;
         margin-top: 10%;
         font-size: 25px;
     }
 
+    #post-9 .bloc1-1 .nous-rencontrer {
+        width: 92%;
+    }
+
     #post-9 .bloc1-1 .chezplanty-p {
-        width: 50%;
-        margin-left: 32%;
+        width: 33%;
+        margin-left: 38%;
         margin-right: auto;
+        font-size: 16px;
     }
 
-    #post-9 .equipe .branche img {
-        width: 30%;
-        margin-left: 80%;
-
-    }
-
-    #post-11 .commande .produit {
-        max-width: 190px;
-        margin-top: 0;
-        margin-bottom: 1%;
-        margin-right: 1%;
-    }
-
-    #post-11 .commande .produit .qte-moins {
-        border-top: 1px solid #ffffff;
-    }
-
-    #post-11 .commande .produit .plus-moins p {
-        padding: 10%;
-        font-size: 20px;
-
+    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
+        margin: 0;
     }
 }
 
@@ -1200,5 +1197,10 @@ body * {
         padding: 10%;
         font-size: 20px;
 
+    }
+
+    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
+        margin-top: -48%;
+        margin-left: -62%;
     }
 }
