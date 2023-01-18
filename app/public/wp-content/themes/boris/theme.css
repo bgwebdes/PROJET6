@@ -326,12 +326,12 @@ body * {
 }
 
 #post-9 .bloc1-1 h2 {
-    margin-left: -20%;
+    margin-left: -6%;
     margin-top: 10%;
 }
 
 #post-9 .bloc1-1 .chezplanty-p {
-    width: 43%;
+    width: 46%;
     margin-left: 32%;
     margin-right: auto;
 }
@@ -357,23 +357,22 @@ body * {
     width: 80%;
 }
 
-#post-9 .bloc1-1 .fleur1 {
-    margin-right: 28%;
-}
-
 #post-9 .bloc1-1.fleur1 img {
     margin-right: 50%;
     margin-top: -50px;
 
 }
 
-#post-9 .nous-contacter .formulaire-contact .fleur-16 img {
-    margin-top: 205%;
-    margin-left: 85%;
+#post-9 .nous-contacter .formulaire-contact .fleur-16 {
+    margin-top: -48%;
+    margin-left: 7%
 }
 
 #post-9 .nous-contacter .formulaire-contact {
-    margin-right: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -426,6 +425,7 @@ body * {
 #nf-field-4 {
     background-color: #E0B9B4;
     margin-left: 23%;
+    margin-top: 5%;
     width: 50%;
 }
 
@@ -760,8 +760,8 @@ body * {
     }
 
     #main #post-7 .lesgouts .galerie {
-        display: block;
-        width: 100%;
+        display: flex;
+        width: 90%;
     }
 
     #main #post-7 .lesgouts .galerie .image {
@@ -774,7 +774,9 @@ body * {
     }
 
     #post-7 .bloc3 {
-        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #post-7 .lesgouts .wp-block-buttons .wp-block-button {
@@ -790,10 +792,11 @@ body * {
     }
 
     #post-9 .bloc1-1 .nous-rencontrer {
-        display: block;
-        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
     }
-
 
 
     #post-9 .bloc1-1 h2 {
@@ -826,10 +829,12 @@ body * {
         width: 100% !important;
     }
 
+    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
+        margin-top: -48%;
+    }
 
     #post-9 .nous-contacter .formulaire-contact .fleur-16 img {
-        margin: auto;
-        margin-top: -97%;
+        margin-top: -20%;
         display: block;
         width: 30%;
     }
@@ -1077,7 +1082,7 @@ body * {
         align-items: center;
         margin-right: auto;
         margin-left: auto;
-        width: 70%;
+        width: 90%;
     }
 
     #main #post-7 .lesgouts .galerie .image {
@@ -1103,98 +1108,30 @@ body * {
     #post-7 .bloc4 .temoignages h2 {
         font-size: 25px;
     }
-}
 
-#post-7 .lesgouts .wp-block-buttons .wp-block-button {
-    padding-top: 10%;
-}
+    /* ----------------------------------------- page "nous rencontrer" -------------------------------------------------*/
 
-#post-9 .bloc1-1 .fleur1 {
-    margin: 0;
-}
+    #post-9 .bloc1-1 h2 {
+        margin-top: 10%;
+        text-align: center;
+        margin-left: 0;
+    }
 
-#post-9 .bloc1-1 h2 {
-    margin-top: 10%;
-    margin-left: 0;
-    text-align: center;
-}
+    #post-9 .bloc1-1 .chezplanty {
+        display: block;
+        text-align: center;
+    }
 
-#post-9 .bloc1-1 .chezplanty-p {
-    width: 90%;
-    margin: auto;
-}
+    #post-9 .bloc1-1 .chezplanty-p {
+        width: 95%;
+        margin-left: 3%;
+    }
 
-#post-9 .equipe .branche img {
-    margin-bottom: -3%;
-    margin-top: -25%;
-    z-index: 100;
-    width: 30%;
-    margin-left: 49%;
+    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
+        margin-top: -66%;
+        margin-left: -5%;
+    }
 }
-
-#post-9 .nous-contacter .formulaire-contact {
-    margin: 0;
-}
-
-#post-9 .nous-contacter .formulaire-contact .fleur-16 {
-    display: block;
-    margin-top: -171%;
-    margin-right: 60%;
-}
-
-#nf-field-4 {
-    background-color: #E0B9B4;
-    margin-left: 23%;
-    width: 50%;
-    margin-top: 10%;
-}
-
-#post-9 .nous-contacter .wp-block-spacer {
-    display: none;
-}
-
-#post-11 .commande .wp-block-group__inner-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    background-color: #3B8E46;
-    max-width: 860px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #ffffff;
-    flex-direction: column;
-}
-
-#post-11 .commande .produit {
-    margin-top: 0;
-    margin-bottom: 10%;
-    max-width: none;
-}
-
-#post-11 .form-commande {
-    margin-left: auto;
-    margin-right: auto;
-    color: #ffffff;
-}
-#post-11 .formulaire_commande .form-commande .vos-informations {
-    text-align: center;
-}
-
-#nf-form-2-content {
-    display: block;
-    margin: 0 auto;
-    border: none;
-    padding: 0;
-}
-#nf-form-title-2 {
-    padding: 0;
-}
-#nf-form-3-cont .nf-form-layout .nf-form-content {
-    display: block;
-    margin: 0 auto;
-}
-
-
 
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
@@ -1216,6 +1153,12 @@ body * {
     #main #post-7 .lesgouts .galerie .image img {
         object-fit: fill;
         height: auto;
+    }
+
+    #post-9 .bloc1-1 h2 {
+        margin-left: -13%;
+        margin-top: 10%;
+        font-size: 25px;
     }
 
     #post-9 .bloc1-1 .chezplanty-p {
