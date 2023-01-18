@@ -1134,9 +1134,7 @@ body * {
     }
 }
 
-#post-11 .form-commande {
-    min-width: 480px;
-}
+
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
 
