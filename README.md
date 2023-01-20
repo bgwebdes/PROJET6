@@ -1,3 +1,3 @@
 ﻿# PROJET6
-# Site web Wordpres "PLANTY"
+# Site web Wordpress "PLANTY"
 
