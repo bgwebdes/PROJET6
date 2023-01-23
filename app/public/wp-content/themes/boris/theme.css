@@ -555,6 +555,72 @@ body * {
 }
 
 /* --------------------------------------------- formulaire >>> page commande   -------------------------------------*/
+
+/* test formulaire Contact form 23-01-23 17-50*/
+#wpcf7-f670-p663-o1 form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#wpcf7-f670-p663-o1 form .form-planty {
+    display: flex;
+}
+
+#wpcf7-f670-p663-o1 form .form-planty .champs-groupes-1 {
+    padding-right: 5%;
+    border-right: 1px solid #ffffff;
+}
+
+#wpcf7-f670-p663-o1 form .form-planty .champs-groupes-1 label {
+    color: #ffffff
+}
+
+#wpcf7-f670-p663-o1 form .form-planty .champs-groupes-1 label input  {
+    background-color: #ffffff;
+    margin: 20px 0 20px 0;
+    border-radius: 15px;
+    
+}
+
+#wpcf7-f670-p663-o1 form .form-planty .champs-groupes-2 {
+    padding-left: 5%;
+}
+
+#wpcf7-f670-p663-o1 form .form-planty .champs-groupes-2 label {
+    color: #ffffff
+}
+#wpcf7-f670-p663-o1 form .form-planty .champs-groupes-2 label input  {
+    background-color: #ffffff;
+    margin: 20px 0 20px 0;
+    border-radius: 15px;
+    
+}
+#wpcf7-f670-p663-o1 form .bouton-centre {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+#wpcf7-f670-p663-o1 form .bouton-centre p input {
+
+    background-color: #DC9F96;
+}
+
+#post-663 .h2-informations {
+    padding-left: 38%;
+}
+
+#post-663 .h2-livraison {
+    padding-left: 10%;
+}
+
+
+
+
+/* fin test formulaires*/
 #post-11 .form-commande {
     max-width: 860px;
     margin-left: auto;
@@ -675,6 +741,7 @@ body * {
         font-weight: 800;
         color: #d2776a;
     }
+
 
     /* navigation */
 
@@ -1007,9 +1074,11 @@ body * {
         margin-right: auto;
         margin-bottom: 5%;
     }
+
     #post-11 .commande .produit .bt-commande {
         padding-left: 19%;
     }
+
     /* polices */
 
     .titreh2vert {
@@ -1180,19 +1249,21 @@ body * {
     #nf-field-11-container {
         margin-bottom: 13px;
     }
+
     #nf-form-2-cont {
         border: none;
         padding: 0;
     }
+
     .nf-field-container .nf-field-element {
-        width: 95% !important ;
+        width: 95% !important;
     }
 }
 
 
 
 @media only screen and (min-width: 801px) and (max-width: 1024px) {
-   
+
     #post-7 .bloc3 {
         padding: 50px 0 0px 0;
     }
