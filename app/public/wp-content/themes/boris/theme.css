@@ -215,37 +215,85 @@ body * {
     height: 80px;
 }
 
-#menu-primary_logged_in-2 :hover {
-    text-decoration: none;
+/* ---- liens "Nous rencontrer" et "Admin"  ------*/
+
+
+#menu-primary_logged_in-2 li:nth-child(-n+2) {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
     color: #000000;
-    font-size: 13px;
-    font-weight: 700;
+    padding: 0;
+    height: 80px;
+   
+
 }
 
-#menu-primary_logged_in-2 .menu-item-370 {
+#menu-primary_logged_in-2 a {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding: 26px 13px 26px 13px;
+
+
+}
+
+
+#menu-primary_logged_in-2 a:hover {
+    text-decoration: none;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+/* ---- lien "Précommande" ---*/
+
+#menu-primary_logged_in-2 .menu-item-707 {
     background-color: #DC9F96;
     font-size: 16px;
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
+    padding: 0;
+    height: 80px;
+
 }
 
-#menu-primary_logged_in-2 .menu-item-370:hover {
+#menu-primary_logged_in-2 .menu-item-707:hover {
     background-color: #c02e44;
 
+
 }
 
-#menu-primary_logged_in-2 .menu-item-370 a:hover {
+#menu-primary_logged_in-2 .menu-item-707 a {
     font-size: 16px;
     line-height: 19px;
     font-weight: 700;
-
-}
-
-#menu-primary_logged_in-2 .menu-item-370 a:hover {
-    background-color: #c02e44;
     color: #ffffff;
+    padding: 26px 13px 26px 13px;
+
+
 }
+
+#menu-primary_logged_in-2 .menu-item-707 a:hover {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #ffffff;
+
+
+
+}
+
+
 
 /* polices */
 
@@ -446,9 +494,10 @@ body * {
 
 
 /* header */
-#post-663 > header > h1 {
+#post-663>header>h1 {
     display: none;
 }
+
 #post-11 .header-commander {
     display: flex;
 }
@@ -619,14 +668,16 @@ body * {
 
 
 }
+
 #wpcf7-f670-p663-o1 form .commande-panier .panier .plus-moins p input {
     max-width: 31px;
     height: 28px;
     border: none;
-    color: #ffffff; 
+    color: #ffffff;
 }
+
 #wpcf7-f670-p663-o1 form .commande-panier .panier .plus-moins .signe-plus {
-border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
 
