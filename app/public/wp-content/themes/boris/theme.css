@@ -56,9 +56,6 @@ label,
 legend,
 table,
 caption,
-tbody,
-tfoot,
-thead,
 tr,
 th,
 td,
@@ -68,19 +65,12 @@ canvas,
 details,
 embed,
 figure,
-figcaption,
 footer,
 header,
-hgroup,
 menu,
 nav,
 output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio {
+section {
     margin: 0;
     padding: 0;
     border: 0;
@@ -140,6 +130,30 @@ body {
 
 body * {
     font-family: 'Syne', sans-serif;
+}
+
+h1 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+h2 {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+p {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #content {
@@ -205,9 +219,59 @@ body * {
 }
 
 #menu-primary-2 li:hover {
-    background-color: #c02e44;
-    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    border: none;
+    text-decoration: none;
+
+
 }
+
+#menu-primary-2 li:hover a {
+    text-decoration: none;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    border: none;
+    text-decoration: none;
+}
+
+
+#menu-primary-2 li.menu-item:nth-child(2) {
+    background-color: #DC9F96;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0;
+    height: 80px;
+}
+
+#menu-primary-2 li.menu-item:nth-child(2):hover {
+
+    background-color: #c02e44;
+}
+
+#menu-primary-2 li.menu-item:nth-child(2) a {
+
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 26px 13px 26px 13px;
+
+}
+
+
+
 
 /* -------------------------------------  menu utilisateur connecté --------------------------------------*/
 
@@ -227,7 +291,7 @@ body * {
     color: #000000;
     padding: 0;
     height: 80px;
-   
+
 
 }
 
@@ -423,8 +487,8 @@ body * {
 }
 
 #post-9 .nous-contacter .formulaire-contact .fleur-16 {
-    margin-top: -48%;
-    margin-left: 7%
+    margin-top: -55%;
+    margin-left: -100%;
 }
 
 #post-9 .nous-contacter .formulaire-contact {
@@ -432,6 +496,7 @@ body * {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 400px;
 
 }
 
@@ -458,35 +523,36 @@ body * {
 }
 
 
-#nf-form-1-cont .nf-form-layout form .nf-form-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    width: 400px;
+/* --- formulaire contact form ---*/
+
+#wpcf7-f708-p9-o1 form p label span input {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    max-width: 383px;
+    margin: 20px 0 20px 0;
+}
+
+#wpcf7-f708-p9-o1 form p:nth-child(4) label span textarea {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+    border-radius: 7px;
+    max-width: 383px;
+    margin: 20px 0 20px 0;
+
 
 }
 
-#nf-form-1-cont {
-    width: 100%;
-}
-
-#nf-field-1 {
-    border-radius: 5px;
-}
-
-#nf-field-2 {
-    border-radius: 5px;
-}
-
-#nf-field-3 {
-    border-radius: 5px;
-}
-
-#nf-field-4 {
+#wpcf7-f708-p9-o1 form p:nth-child(6) input {
     background-color: #E0B9B4;
-    margin-left: 23%;
-    margin-top: 5%;
-    width: 50%;
+    width: 198px;
+    height: 55px;
+    left: 23%;
+    position: relative;
+    margin-top: 24px;
 }
+
+
 
 
 
@@ -526,24 +592,6 @@ body * {
     line-height: 46px;
 }
 
-#nf-form-title-2 h3 {
-    font-family: 'Syne';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 20px;
-}
-
-#nf-form-title-3 h3 {
-    font-family: 'Syne';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 36px;
-    margin-bottom: 20px;
-
-}
 
 
 /* -----------  fin header ------*/
@@ -618,12 +666,9 @@ body * {
 
 /* --------------------------------------------- formulaire >>> page commande   -------------------------------------*/
 
-/* test formulaire Contact form 23-01-23 17-50*/
 #post-663 .header-commander h3 {
     text-align: left;
 }
-
-
 
 /* ----- section images produits + quantités --- */
 #wpcf7-f670-p663-o1 form .commande-panier {
@@ -738,7 +783,7 @@ body * {
 #prenom,
 #email {
     background-color: #ffffff;
-    margin: 20px 0 20px 0;
+    margin: 15px 0 20px 0;
     border-radius: 7px;
     width: 90%;
 
@@ -764,7 +809,7 @@ body * {
 #codepostal,
 #ville {
     background-color: #ffffff;
-    margin: 20px 0 20px 0;
+    margin: 15px 0 20px 0;
     border-radius: 5px;
     width: 95%;
 
@@ -804,8 +849,6 @@ body * {
 }
 
 
-/* fin test formulaires*/
-
 
 #post-11 .form-commande {
     max-width: 860px;
@@ -818,62 +861,10 @@ body * {
     width: 100%;
 }
 
-#nf-form-title-2 {
-    font-family: 'syne';
-    font-size: 26px;
-    font-weight: 700;
-    padding-right: 20%;
-}
-
-#nf-form-title-3 {
-    font-family: 'syne';
-    font-size: 26px;
-    font-weight: 700;
-    padding-right: 60%;
-}
-
-#nf-field-5-container .nf-field,
-#nf-field-9-container .nf-field {
-    margin-top: 50px;
-}
-
-#nf-field-5,
-#nf-field-6,
-#nf-field-7,
-#nf-field-8,
-#nf-field-9,
-#nf-field-10,
-#nf-field-11 {
-    border-radius: 10px;
-}
-
-#nf-field-7,
-#nf-field-11 {
-    margin-bottom: -20px;
-}
-
-#nf-form-2-cont .nf-form-layout .nf-form-content {
-    display: block;
-    width: 100%;
-}
-
-#nf-form-3-cont .nf-form-layout .nf-form-content {
-    display: block;
-    width: 100%;
-}
 
 #post-11 .formulaire_commande .btn-commander {
     border-radius: 5px;
     padding: 0 35px 50px 0;
-}
-
-#nf-form-3-cont .nf-form-layout .nf-form-content {
-    margin-left: -20px;
-}
-
-#nf-form-2-cont {
-    border-right: 1px solid #ffffff;
-    padding-right: 5%;
 }
 
 /* photo cannettes bas de page */
@@ -1566,8 +1557,8 @@ body * {
     }
 
     #post-9 .nous-contacter .formulaire-contact .fleur-16 {
-        margin-top: -48%;
-        margin-left: -62%;
+        margin-top: -55%;
+        margin-left: -100%;
     }
 
     #nf-field-7-container {
