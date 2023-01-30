@@ -338,7 +338,7 @@ body {
     line-height: 19px;
     color: #ffffff;
     font-weight: 700;
-    padding: 5%;
+    height: 80px;
 
 }
 
@@ -1117,7 +1117,15 @@ body {
     #menu-primary-2 a {
         font-size: 16px;
     }
-
+    #menu-primary_logged_in-2 .menu-item-707 {
+        background-color: #DC9F96;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+        font-weight: 700;
+        padding: 5%;
+    
+    }
     #primary-open-menu:hover {
         background-color: #c02e44;
     }
