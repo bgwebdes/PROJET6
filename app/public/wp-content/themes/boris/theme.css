@@ -388,6 +388,7 @@ body {
     font-size: 38px;
     font-weight: 800;
     color: #d2776a;
+    text-align: center;
 }
 
 /* blocs de contenu */
@@ -1041,7 +1042,7 @@ body {
     }
 
     .titreh2rose {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 800;
         color: #d2776a;
     }
@@ -1667,7 +1668,8 @@ body {
     #post-9 .bloc1-1 .box-fleur1 figure img {
         width: 40%;
         position: relative;
-        top: 35px;
+        top: 0;
+        left: 0;
     }
 
     #post-9 .bloc1-1 .ns-rencontrer p {
@@ -1796,7 +1798,9 @@ body {
         margin-top: 25%;
 
     }
-
+    #post-9 .bloc1-1 .ns-rencontrer h1 {
+        font-size: 27px;
+    }
     #post-9 .nous-rencontrer .ns-rencontrer {
         display: flex;
         flex-direction: column;
@@ -1854,44 +1858,3 @@ body {
     }
 }
 
-/*@media only screen and (min-width: 1025px) {
-    #post-11 .commande .produit .qte-moins {
-        border-top: 1px solid #ffffff;
-    }
-
-    #post-11 .commande .produit .plus-moins p {
-        padding: 10%;
-        font-size: 20px;
-
-    }
-
-    #post-9 .nous-contacter .formulaire-contact .fleur-16 {
-        margin-top: -65%;
-        margin-left: -100%;
-    }
-
-
-
-    #post-9 .equipe .branche img {
-        position: absolute;
-        bottom: 0;
-        width: 10%;
-        right: 5%;
-    }
-
-    #post-9 .equipe .branche {
-        position: relative;
-
-    }
-
-    #wpcf7-f670-p663-o1 form .infos {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    #wpcf7-f670-p663-o1 form .infos .champs-groupe-1 {
-        border-right: 1px solid #ffffff;
-    }
-
-}*/
