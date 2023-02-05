@@ -399,7 +399,7 @@ body {
 #post-7 .bloc1 {
     background-color: #ECE2DA;
     padding-top: 100px;
-   
+
 }
 
 #post-7 .bloc2 {
@@ -470,7 +470,7 @@ body {
 }
 
 #post-9 .bloc1-1 .nous-rencontrer {
-    padding-top: 3%;
+    padding-top: 10%;
 }
 
 #post-9 .bloc1-1 .nous-rencontrer .ns-rencontrer,
@@ -532,8 +532,8 @@ body {
 #post-9 .bloc1-1 .box-fleur1 img {
 
     position: absolute;
-    left: 5%;
-    top: -120px;
+    right: -50%;
+    top: -150px;
     transform: rotate(70deg);
 }
 
@@ -549,7 +549,8 @@ body {
 
 #post-9 .nous-contacter .formulaire-contact .fleur-16 img {
     position: absolute;
-    left: 40%;
+    left: -20%;
+    top: -250px;
 }
 
 #post-9 .nous-contacter .formulaire-contact {
@@ -1118,6 +1119,7 @@ body {
     #menu-primary-2 a {
         font-size: 16px;
     }
+
     #menu-primary_logged_in-2 .menu-item-707 {
         background-color: #DC9F96;
         font-size: 16px;
@@ -1125,8 +1127,9 @@ body {
         color: #ffffff;
         font-weight: 700;
         padding: 5%;
-    
+
     }
+
     #primary-open-menu:hover {
         background-color: #c02e44;
     }
@@ -1152,7 +1155,7 @@ body {
 
     #post-7 .bloc2 {
         display: block;
-        padding: 50% 0 30px 0;
+        padding: 20% 0 30px 0;
     }
 
     #post-7 .bloc2 p {
@@ -1214,8 +1217,10 @@ body {
     #post-9 .bloc1-1 .box-fleur1 img {
         position: relative;
         transform: rotate(70deg);
-        width: 40%;
-        top: 35px;
+        right: 0;
+        top: 0;
+
+     
     }
 
     #post-9 .bloc1-1 .nous-rencontrer {
@@ -1387,7 +1392,9 @@ body {
         margin-top: 10%;
 
     }
-    #wpcf7-f670-p663-o1 form .infos .champs-groupe-1 h2, #wpcf7-f670-p663-o1 form .infos .champs-groupe-2 h2 {
+
+    #wpcf7-f670-p663-o1 form .infos .champs-groupe-1 h2,
+    #wpcf7-f670-p663-o1 form .infos .champs-groupe-2 h2 {
         font-size: 23px;
         padding: 5%;
     }
@@ -1594,7 +1601,7 @@ body {
 
     #post-7 .bloc2 {
         display: block;
-        padding: 31% 0 100px 0;
+        padding: 10% 0 100px 0;
     }
 
     #post-7 .bloc2 p {
@@ -1683,7 +1690,7 @@ body {
 
     #post-9 .equipe .branche img {
         position: absolute;
-        right: 5%;
+        right: 1%;
         bottom: 0;
         width: 15%;
 
@@ -1798,9 +1805,11 @@ body {
         margin-top: 25%;
 
     }
+
     #post-9 .bloc1-1 .ns-rencontrer h1 {
         font-size: 27px;
     }
+
     #post-9 .nous-rencontrer .ns-rencontrer {
         display: flex;
         flex-direction: column;
@@ -1843,7 +1852,7 @@ body {
     #post-9 .equipe .branche img {
         position: absolute;
         bottom: 0;
-        width: 10%;
+        width: 15%;
         right: 3%;
     }
 
@@ -1857,4 +1866,3 @@ body {
         margin-right: auto;
     }
 }
-
