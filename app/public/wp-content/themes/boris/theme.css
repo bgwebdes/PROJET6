@@ -403,7 +403,7 @@ body {
 }
 
 #post-7 .bloc2 {
-    padding: 20% 0 100px 0;
+    padding: 10% 0 100px 0;
     margin-top: -10%;
     background-image: url(../boris/img/rectangle6.png);
     background-position: top;
@@ -443,7 +443,7 @@ body {
 }
 
 #post-7 .bloc4 .temoignages {
-    padding: 10% 0 10% 0;
+    padding: 3em 0 3em 0;
     justify-content: center;
 }
 
@@ -570,6 +570,7 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 36px;
+    margin-top: 3%;
 }
 
 #post-9 .nous-contacter.formulaire-contact {
@@ -642,7 +643,7 @@ body {
     font-weight: 800;
     font-size: 38px;
     line-height: 46px;
-    padding-bottom: 100px;
+    padding: 50px 0 70px 0;
     border-bottom: 1px solid #ffffff;
 }
 
@@ -1058,8 +1059,7 @@ body {
     #masthead .site-logo .custom-logo {
         max-width: 300px;
         max-height: 300px;
-        width: 135px;
-        height: 50%;
+        width: 150px;
         padding: 0;
     }
 
@@ -1070,7 +1070,7 @@ body {
     }
 
     #masthead .menu-button-container {
-        width: 30%;
+        width: 35%;
     }
 
     #primary-open-menu {
@@ -1126,12 +1126,27 @@ body {
         line-height: 19px;
         color: #ffffff;
         font-weight: 700;
-        padding: 5%;
 
     }
 
     #primary-open-menu:hover {
         background-color: #c02e44;
+    }
+
+
+    .primary-navigation-open .primary-navigation>.primary-menu-container,
+    .primary-navigation-open .woo-navigation>.primary-menu-container {
+        background-color: #E0B9B4;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    #menu-primary_logged_in-2 li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #c02e44;
     }
 
     /* sections */
@@ -1220,7 +1235,7 @@ body {
         right: 0;
         top: 0;
 
-     
+
     }
 
     #post-9 .bloc1-1 .nous-rencontrer {
@@ -1572,20 +1587,20 @@ body {
     }
 
     #site-navigation {
-        width: 30%;
+        width: 70%;
     }
 
     #masthead .site-branding {
-        width: 20%;
-        margin-right: 50%;
+        width: 30%;
     }
 
     #masthead .site-branding .site-logo {
         height: 80px;
+        margin: 15px 0;
     }
 
     #masthead .site-logo .custom-logo {
-        width: 120px;
+        width: 150px;
     }
 
     #menu-primary-2 a {
@@ -1594,6 +1609,10 @@ body {
 
     #primary-open-menu:hover {
         background-color: #c02e44;
+    }
+
+    #menu-primary_logged_in-2 li.menu-item-707 {
+        padding: 0;
     }
 
     /* sections */
