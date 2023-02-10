@@ -525,6 +525,17 @@ body {
     z-index: 100;
 }
 
+#post-9 .equipe .branche {
+    position: relative;
+}
+
+#post-9 .equipe .branche img {
+    position: absolute;
+    right: 1%;
+    bottom: 0;
+    width: 13%;
+}
+
 #post-9 .bloc1-1 .box-fleur1 {
     position: relative;
 }
