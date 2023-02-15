@@ -362,17 +362,29 @@ body {
     line-height: 19px;
     font-weight: 700;
     color: #ffffff;
-
-
-
 }
 
 
 
 /* polices */
 
-.titreh2vert {
+.titreh1rose {
     font-size: 38px;
+    font-weight: 800;
+    color: #d2776a;
+    text-align: center;
+    z-index: 10;
+}
+
+.titreh1blanc {
+    font-size: 38px;
+    font-weight: 800;
+    color: #ffffff;
+    text-align: center;
+}
+
+.titreh2vert {
+    font-size: 30px;
     font-weight: 800;
     color: #3B8E46;
 }
@@ -384,7 +396,7 @@ body {
 }
 
 .titreh2rose {
-    font-size: 38px;
+    font-size: 30px;
     font-weight: 800;
     color: #d2776a;
     text-align: center;
@@ -545,6 +557,7 @@ body {
     right: -50%;
     top: -150px;
     transform: rotate(70deg);
+    z-index: 0;
 }
 
 
@@ -1043,21 +1056,28 @@ body {
 @media only screen and (min-width: 300px) and (max-width: 480px) {
 
     /* polices */
+    .titreh1rose {
+        font-size: 18px;
+    }
+
+    .titreh1blanc {
+        font-size: 18px;
+    }
 
     .titreh2vert {
-        font-size: 21px;
+        font-size: 15px;
         font-weight: 800;
         color: #3B8E46;
     }
 
     .titreh3vert {
-        font-size: 24px;
+        font-size: 15px;
         font-weight: 700;
         color: #3B8E46;
     }
 
     .titreh2rose {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 800;
         color: #d2776a;
     }
@@ -1172,7 +1192,6 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        border-bottom: 1px solid #c02e44;
     }
 
     /* sections */
@@ -1203,7 +1222,7 @@ body {
     #post-7 .bloc2 p {
         width: 60%;
         margin: 0 auto;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #main #post-7 .lesgouts .galerie {
@@ -1228,7 +1247,7 @@ body {
     }
 
     #post-7 .bloc3 p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     #post-7 .lesgouts .wp-block-buttons .wp-block-button {
@@ -1479,6 +1498,18 @@ body {
 
 
 @media only screen and (min-width: 481px) and (max-width: 800px) {
+
+    .titreh1rose {
+        font-size: 30px;
+    }
+
+    .titreh1blanc {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
 
     #post-11 .commande .produit .bon-commande {
         display: flex;
