@@ -383,6 +383,12 @@ body {
     text-align: center;
 }
 
+.titreh1vert {
+    font-size: 38px;
+    font-weight: 800;
+    color: #3B8E46;
+}
+
 .titreh2vert {
     font-size: 30px;
     font-weight: 800;
@@ -1060,6 +1066,11 @@ body {
         font-size: 18px;
     }
 
+    .titreh1vert {
+        font-size: 18px;
+
+    }
+
     .titreh1blanc {
         font-size: 18px;
     }
@@ -1677,7 +1688,10 @@ body {
 
     /* sections */
     /* --------------------------------------    page d'accueil - 481px >> 800px ---------------------------------------*/
+    .titreh1vert {
+        font-size: 30px;
 
+    }
     #post-7 .bloc2 {
         display: block;
         padding: 10% 0 100px 0;
