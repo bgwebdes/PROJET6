@@ -463,7 +463,9 @@ body {
     padding: 3em 0 3em 0;
     justify-content: center;
 }
-
+#post-7 .bloc4 .temoignages img {
+    max-width: 85%;
+}
 #post-7 .lesgouts {
     border-bottom: 3px solid #ECE2DA;
     border-bottom-left-radius: 15px;
@@ -550,7 +552,7 @@ body {
     position: absolute;
     right: 1%;
     bottom: 0;
-    width: 13%;
+    width: 10%;
 }
 
 #post-9 .bloc1-1 .box-fleur1 {
@@ -564,6 +566,7 @@ body {
     top: -150px;
     transform: rotate(70deg);
     z-index: 0;
+    width: 55%;
 }
 
 
@@ -580,6 +583,7 @@ body {
     position: absolute;
     left: -20%;
     top: -250px;
+    width: 35%;
 }
 
 #post-9 .nous-contacter .formulaire-contact {
@@ -1076,13 +1080,13 @@ body {
     }
 
     .titreh2vert {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 800;
         color: #3B8E46;
     }
 
     .titreh3vert {
-        font-size: 15px;
+        font-size: 20px !important;
         font-weight: 700;
         color: #3B8E46;
     }
@@ -1270,6 +1274,10 @@ body {
         text-align: center;
     }
 
+    #post-7 .bloc4 .temoignages img {
+        max-width: 35%;
+    }
+
     /* --------------------------------- page "nous rencontrer" 300px >> 480px--------------------------------*/
 
 
@@ -1316,13 +1324,16 @@ body {
     }
 
 
-
     /* ------------------------- formulaire >>> page "nous rencontrer" 300px >> 480px ----------------------------------*/
 
     #wpcf7-f708-p9-o1 form p label span input {
         width: 100%;
     }
 
+    #wpcf7-f708-p9-o1 form p:nth-child(4) label span textarea {
+
+        width: 100%;
+    }
 
     #post-9 .bloc1-1 .ns-rencontrer p {
         width: 100%;
@@ -1522,6 +1533,10 @@ body {
         font-size: 15px;
     }
 
+    #wpcf7-f708-p9-o1 form p label span input {
+        width: 100%;
+    }
+
     #post-11 .commande .produit .bon-commande {
         display: flex;
         justify-content: space-around;
@@ -1692,6 +1707,7 @@ body {
         font-size: 30px;
 
     }
+
     #post-7 .bloc2 {
         display: block;
         padding: 10% 0 100px 0;
@@ -1740,6 +1756,10 @@ body {
 
     #post-9 .bloc1-1 .box-fleur1 {
         padding: 0;
+    }
+
+    #post-7 .bloc4 .temoignages img {
+        max-width: 30%;
     }
 
     /* ----------------------------------------- page "nous rencontrer" 481px >> 800px --------------------------------*/
@@ -1916,10 +1936,10 @@ body {
 
     #post-9 .bloc1-1 .box-fleur1 figure img {
         position: absolute;
-        left: 5%;
-        top: -80px;
+        left: 75%;
+        top: -95px;
         transform: rotate(70deg);
-        width: 60%;
+        width: 70%;
     }
 
     #post-9 .bloc1-1 .ns-rencontrer p {

@@ -21,3 +21,7 @@ function logged_wp_nav_menu_args( $args = '' ) {
     return $args;
     }
     add_filter( 'wp_nav_menu_args', 'logged_wp_nav_menu_args' );
+
+
+    //Changement url relatives des images
+    add_filter( 'attachment_link', 'wp_make_link_relative' ); 
